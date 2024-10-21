@@ -2,9 +2,7 @@ package net.spiritmc.rules.commands;
 
 import net.spiritmc.rules.util.Inventories;
 import net.spiritmc.rules.Rules;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
-import org.bukkit.command.CommandSender;
+import org.bukkit.command.*;
 import org.bukkit.entity.Player;
 
 public class RulesCommand implements CommandExecutor {
@@ -28,6 +26,8 @@ public class RulesCommand implements CommandExecutor {
                 player.openInventory(Inventories.getTierInventory(player, plugin.getConfig(), tier));
 
             }
+        } else {
+            commandSender.sendMessage("Only players can send this command!");
         }
 
         return true;

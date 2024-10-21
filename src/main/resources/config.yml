@@ -1,0 +1,18 @@
+# Add custom rules to the GUI
+
+tiers:
+  1:
+    description: 'The smallest of crimes'
+    rules: ['Spam', 'PvP']
+  2:
+    description: "Not quite unpunishable"
+    rules: ['Inappropriate Language', 'etc.']
+  3:
+    description: "Getting worse..."
+    rules: ["More rules", "and more"]
+  4:
+    description: "Just don't do these"
+    rules: ["Bad stuff", "goes here"]
+  5:
+    description: "The worst offences"
+    rules: ["Hacking", "Griefing"]

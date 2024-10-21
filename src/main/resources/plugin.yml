@@ -1,0 +1,11 @@
+name: rules
+version: '1.0-SNAPSHOT'
+main: net.spiritmc.rules.Rules
+api-version: '1.21'
+
+commands:
+  die:
+    description: An easy way to die
+    usage: /<command>
+  rules:
+    usage: /<command> [tier]

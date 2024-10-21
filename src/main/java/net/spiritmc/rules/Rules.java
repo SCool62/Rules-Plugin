@@ -10,6 +10,7 @@ public final class Rules extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        getLogger().info("Plugin initializing...");
 
         saveDefaultConfig();
 
@@ -20,6 +21,6 @@ public final class Rules extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getLogger().info("Plugin disabling...");
     }
 }

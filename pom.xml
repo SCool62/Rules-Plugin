@@ -18,7 +18,6 @@
 
     <build>
         <defaultGoal>clean package</defaultGoal>
-        <directory>/Users/SamuelCharlson/Documents/Kieran Lifesteal Server/plugins</directory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
